@@ -61,4 +61,6 @@ template:
             {{ states("input_number.electricityoffpeak") }}
           {% endif %}
 ```
+6. Restart Home Assistant and then define the value in your grid consumption entity.
+
 ![image](https://user-images.githubusercontent.com/84074944/236609097-21870887-a222-4e19-bd61-b351fd63d967.png)
