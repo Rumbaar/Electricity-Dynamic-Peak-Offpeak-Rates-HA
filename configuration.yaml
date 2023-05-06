@@ -1,0 +1,11 @@
+template:
+  - sensor:
+      - name: "CurrentElectricityRate"
+        unique_id: "6fc47be5-359f-4d4e-a4e1-f642d8sample"
+        unit_of_measurement: "AUD/kWh"
+        state: >
+          {% if is_state('binary_sensor.peak', 'on') %}
+            {{ states("input_number.electricitypeak") }}
+          {% else %}
+            {{ states("input_number.electricityoffpeak") }}
+          {% endif %}
