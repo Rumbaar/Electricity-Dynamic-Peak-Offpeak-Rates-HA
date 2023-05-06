@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_number",
+  "data": {
+    "items": [
+      {
+        "id": "electricitypeak",
+        "min": 0.0,
+        "max": 0.45,
+        "unit_of_measurement": "AUD/kWh",
+        "icon": "mdi:currency-usd",
+        "mode": "box",
+        "step": 0.00001,
+        "name": "ElectricityPeak"
+      },
+      {
+        "id": "electricityoffpeak",
+        "min": 0.0,
+        "max": 0.5,
+        "name": "ElectricityOffpeak",
+        "icon": "mdi:currency-usd-off",
+        "step": 0.00001,
+        "unit_of_measurement": "AUD/kWh",
+        "mode": "box"
+      }
+    ]
+  }
+}
