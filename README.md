@@ -1,4 +1,4 @@
-# Electircity Dynamic peak/offpeak rates - Home Assistant [Energy Dashbaord]
+# Electricity Dynamic peak/offpeak rates - Home Assistant [Energy Dashbaord]
 Electricity On/Off Peak rates based on time of day usage for Energy Dashboard daily real-time calculations, create helpers to define the rate and on/off peak times.  Then a sensor that adjusts itself based on the time of day to parse peak/off peak rates to the grid consumption sensor within Home Assistant Energy Dashboard.
 
 1. Create Helper "Input Number" called "ElectricityPeak", define Peak rate
