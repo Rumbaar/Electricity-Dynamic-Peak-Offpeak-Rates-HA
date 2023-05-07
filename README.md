@@ -52,7 +52,7 @@ Electricity On/Off Peak rates based on time of day usage for Energy Dashboard da
 template:
   - sensor:
       - name: "CurrentElectricityRate"
-        unique_id: "6fc47be5-359f-4d4e-a4e1-f642d80d8020"
+        unique_id: "6fc47be5-359f-4d4e-a4e1-f642d8sample"
         unit_of_measurement: "AUD/kWh"
         state: >
           {% if is_state('binary_sensor.peak', 'on') %}
